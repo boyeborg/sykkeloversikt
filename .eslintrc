@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb", "plugin:prettier/recommended", "prettier/react"],
+  "env": {
+    "browser": true
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "useTabs": true
+      }
+    ]
+  }
+}
