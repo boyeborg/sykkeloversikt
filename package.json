@@ -15,7 +15,8 @@
     "express": "^4.16.4",
     "node-fetch": "^2.3.0",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "unfetch": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
