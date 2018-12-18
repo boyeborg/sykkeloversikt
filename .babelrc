@@ -4,7 +4,8 @@
     [
       "@babel/preset-env",
       {
-        "target": "> 0.5% in NO, last 2 versions"
+        "target": "> 0.5% in NO, last 2 versions",
+        "useBuiltIns": "entry"
       }
     ]
   ]
