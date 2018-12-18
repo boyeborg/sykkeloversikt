@@ -51,13 +51,13 @@ class App extends React.Component {
 		const stationListItems = stations.map(station => (
 			<li>
 				{station.title} ({station.subtitle}) [{station.availability.bikes}/
-				{station.number_of_locks}]
+				{station.availability.locks}]
 			</li>
 		));
 
 		return (
 			<div>
-				<h2>Stativnavn (Beskrivelse) [ledig/totalt antall]</h2>
+				<h2>Stativnavn (Beskrivelse) [ledig sykler/ledig låser]</h2>
 				{loading ? <p>Laster...</p> : <ul>{stationListItems}</ul>}
 			</div>
 		);
